@@ -7,7 +7,7 @@ Steps:
 -  git add .
 -  git commit -m ""
 -  git push origin master
-## 2- create a Launch Templates  and configure the template:
+## 2- Go To ec2 from AWS console create a Launch Templates  and configure the template:
 -    chose ubuntu os,
 -    t3.micro,
 -    add tags U want,
