@@ -10,14 +10,14 @@ Steps:
 -    In Advanced details add the content of script file 
 ## 3-   Launch instants from  template 
 -    add 2 ec2 and create them  
-##  Now  You can Access the Server code from LoadBalancer:8002
+###  Now  You can Access the Server code from LoadBalancer:8002
 ```markdown
 To watch the traffics of this server , follow these steps:
 
 1. Run the following command:
-   ```bash
+   ``` bash 
     journalctl -f -u srv-02
 
-##
+
 
 ![The diagram of projcts](https://github.com/khaledhawil/srv-02/blob/master/Untitled%20Diagram.drawio.png)
