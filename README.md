@@ -1,9 +1,9 @@
 # This Project to run a server code on ec2 using  LoadBalancer
 Steps:
-```python
-## 1- create Your Own repo but with name i  (srv-020 
 
-```###  push two files  main.cs and srv02.csproj
+## 1- create Your Own repo but with name i  (srv-020) 
+
+###  push two files  main.cs and srv02.csproj
 -  git add .
 -  git commit -m ""
 -  git push origin master
