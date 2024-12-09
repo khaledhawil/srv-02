@@ -15,9 +15,9 @@ Steps:
 To watch the traffics of this server , follow these steps:
 
 1. Run the following command:
-   ``` bash 
+  
     journalctl -f -u srv-02
-
+``` 
 
 
 ![The diagram of projcts](https://github.com/khaledhawil/srv-02/blob/master/Untitled%20Diagram.drawio.png)
