@@ -10,6 +10,10 @@ Steps:
 -    In Advanced details add the content of script file 
 ## 3-   Launch instants from  template 
 -    add 2 ec2 and create them  
+## 4- Create the Target Group and LoadBalancer:
+- create target group and add the two ec2 to it 
+- create LoadBalancer , attach with target group add 8002 to port 
+
 ###  Now  You can Access the Server code from LoadBalancer:8002
 ```markdown
 To watch the traffics of this server , follow these steps:
