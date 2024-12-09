@@ -13,3 +13,4 @@ Steps:
 # 
 
 
+![The diagram of projcts](https://github.com/khaledhawil/srv-02/blob/master/Untitled%20Diagram.drawio.png)
