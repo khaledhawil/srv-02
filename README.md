@@ -8,8 +8,8 @@ Steps:
 -    Add your Key pair 
 -    chose VPC and security group,  
 -    In Advanced details add the content of script file 
-# 3- Launch instants from  template 
+* 3- Launch instants from  template 
 -    add 2 ec2 and create them  
-
+# 
 
 
