@@ -27,6 +27,7 @@ To watch the traffics of this server , follow these steps:
 1. Run the following command:
   
     journalctl -f -u srv-02
+    and try to access the url from any browser y'll see the traffics 
 ``` 
 
 ### - This is a diagram of Project 
