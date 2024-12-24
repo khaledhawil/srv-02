@@ -1,24 +1,24 @@
-# This Project to run a server code on ec2 using  LoadBalancer
+# This Project is to run a server code on ec2 using  LoadBalancer
 Steps:
 
-## 1- create Your Own repo but with name i  (srv-020) 
+## 1- Create Your Own repo but with name i  (srv-020) 
 
-###  push two files  main.cs and srv02.csproj
+###  Push two files  main.cs and srv02.csproj
 -  git add .
 -  git commit -m ""
 -  git push origin master
-## 2- Go To ec2 from AWS console create a Launch Templates  and configure the template:
--    chose ubuntu os,
+## 2- Go To ec2 from the AWS console create a Launch Template  and configure the template:
+-    Choose Ubuntu os,
 -    t3.micro,
 -    add tags U want,
 -    Add your Key pair 
 -    chose VPC and security group,  
--    In Advanced details add the content of script.sh file  but replace  the repo url with your repoURL in script.sh file
+-    In Advanced details add the content of the script.sh file  but replace  the repo URL with your repo URL in the script.sh file
 ## 3-   Launch instants from  template 
 -    add 2 ec2 and create them  
 ## 4- Create the Target Group and LoadBalancer:
-- create target group and add the two ec2 to it 
-- create LoadBalancer , attach with target group add 8002 to port 
+- create a target group and add the two ec2 to it 
+- create LoadBalancer, attach with target group add 8002 to port 
 
 ###  Now  You can Access the Server code from LoadBalancer:8002
 ```markdown
